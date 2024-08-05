@@ -142,6 +142,9 @@
   font-size: 17px;
   font-weight: 200;
 }
+.caracteristicas h3{
+  margin-bottom: 40px;
+}
 
 .link{
   margin-top: 80px;
@@ -242,4 +245,55 @@
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
+}
+
+footer{
+  margin-top: 15px;
+  background-color: #272727aa;
+  height: 100%;
+  width: 100%;
+}
+
+footer h3{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Inconsolata;
+  font-weight:800;
+}
+.email, .mensaje {
+  width: 100%; /* Ancho completo del contenedor */
+  padding: 10px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Espacio debajo del input */
+  border:#000 solid 2px;
+}
+
+.mensaje {
+  height: 100px; /* Altura del textarea */
+  margin-top: 20px;
+}
+
+.inputSubmit {
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 20%;
+}
+
+.inputSubmit:focus{
+  background-color: rgba(51, 50, 50, 0);
+  color: aliceblue;
+}
+
+.contenedorForm {
+  max-width: 600px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+.contenedorForm input{
+  text-align: center;
 }
